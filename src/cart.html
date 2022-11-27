@@ -39,231 +39,145 @@
 			</div>
 		</div>
 	</header>
-	<main class="main">
-		<section class="catalog">
-			<div class="container">
-				<h2 class="catalog__title">Каталог</h2>
-				<div class="catalog__container">
-					<div class="catalog__goods goods">
-						<ul class="goods__list">
-							<li class="goods__item">
-								<article class="goods-item">
-									<a href="card.html">
-										<img class="goods-item__image" src="img/monic.jpg" alt="monitor">
-										<h3 class="goods-item__title">Монитор AOC 24G2U/BK</h3>
-									</a>
-									<div class="goods-item__buy">
-										<p class="goods-item__price">20799 ₽</p>
-										<button class="goods-item__to-cart">В корзину</button>
-									</div>
-								</article>
+	<main>
+		<section class="cart">
+			<h2 class="visually-hidden">Оформление заказа</h2>
+			<div class="container cart__container">
+				<section class="cart-supplies">
+					<h3 class="cart__title cart__supplies-title">Корзина</h3>
+					<ul class="cart-supplies__list">
+						<li class="cart-supplies__item item">
+							<img class="item__img" src="img/monic-cart.jpg" alt="">
+							<div class="item__deatail">
+								<h4 class="item__title">Монитор AOC 23G2U/BK</h4>
+								<p class="item__vendor-code">Артикул: 654651968</p>
+							</div>
+							<div class="item__control">
+								<div class="item__count">
+									<button class="item__btn item__btn-dec">–</button>
+									<output class="item__number">1</output>
+									<button class="item__btn item__btn-inc">+</button>
+								</div>
+								<p class="item__price">20799 ₽ </p>
+								<button class="item__remove-cart">
+									<svg width="20" height="19" viewBox="0 0 20 19" fill="currentColor"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M19.3337 2.04667L17.4537 0.166668L10.0003 7.62L2.54699 0.166668L0.666992 2.04667L8.12033 9.5L0.666992 16.9533L2.54699 18.8333L10.0003 11.38L17.4537 18.8333L19.3337 16.9533L11.8803 9.5L19.3337 2.04667Z" />
+									</svg>
+								</button>
+							</div>
+						</li>
+						<li class="cart-supplies__item item">
+							<img class="item__img" src="img/clock-cart.jpg" alt="">
+							<div class="item__deatail">
+								<h4 class="item__title">Смарт-часы CANYON Lollypop</h4>
+								<p class="item__vendor-code">Артикул: 654675757</p>
+							</div>
+							<div class="item__control">
+								<div class="item__count">
+									<button class="item__btn item__btn-dec">–</button>
+									<output class="item__number">1</output>
+									<button class="item__btn item__btn-inc">+</button>
+								</div>
+								<p class="item__price">24958 ₽</p>
+								<button class="item__remove-cart">
+									<svg width="20" height="19" viewBox="0 0 20 19" fill="currentColor"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M19.3337 2.04667L17.4537 0.166668L10.0003 7.62L2.54699 0.166668L0.666992 2.04667L8.12033 9.5L0.666992 16.9533L2.54699 18.8333L10.0003 11.38L17.4537 18.8333L19.3337 16.9533L11.8803 9.5L19.3337 2.04667Z" />
+									</svg>
+								</button>
+							</div>
+						</li>
+						<li class="cart-supplies__item item">
+							<img class="item__img" src="img/smart.jpg" alt="">
+							<div class="item__deatail">
+								<h4 class="item__title">Смарт-приставка Selenga R1</h4>
+								<p class="item__vendor-code">Артикул: 724651960</p>
+							</div>
+							<div class="item__control">
+								<div class="item__count">
+									<button class="item__btn item__btn-dec">–</button>
+									<output class="item__number">1</output>
+									<button class="item__btn item__btn-inc">+</button>
+								</div>
+								<p class="item__price">7944 ₽ </p>
+								<button class="item__remove-cart">
+									<svg width="20" height="19" viewBox="0 0 20 19" fill="currentColor"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M19.3337 2.04667L17.4537 0.166668L10.0003 7.62L2.54699 0.166668L0.666992 2.04667L8.12033 9.5L0.666992 16.9533L2.54699 18.8333L10.0003 11.38L17.4537 18.8333L19.3337 16.9533L11.8803 9.5L19.3337 2.04667Z" />
+									</svg>
+								</button>
+							</div>
+						</li>
+					</ul>
+				</section>
+				<section class="cart__total total">
+					<h3 class="visually-hidden">Итог</h3>
+					<div class="total__wrapper">
+						<ul class="total__table">
+							<li class="total__row total__row-header">
+								<span>Итого</span>
+								<span>41 222 ₽</span>
 							</li>
-							<li class="goods__item">
-								<article class="goods-item">
-									<a href="card.html">
-										<img class="goods-item__image" src="img/monic.jpg" alt="monitor">
-										<h3 class="goods-item__title">Монитор AOC 24G2U/BK</h3>
-									</a>
-									<div class="goods-item__buy">
-										<p class="goods-item__price">20799 ₽</p>
-										<button class="goods-item__to-cart">В корзину</button>
-									</div>
-								</article>
+							<li class="total__row total__row-grey">
+								<span>Товары, 3 шт.</span>
+								<span>41 222 ₽</span>
 							</li>
-							<li class="goods__item">
-								<article class="goods-item">
-									<a href="card.html">
-										<img class="goods-item__image" src="img/monic.jpg" alt="monitor">
-										<h3 class="goods-item__title">Монитор AOC 24G2U/BK</h3>
-									</a>
-									<div class="goods-item__buy">
-										<p class="goods-item__price">20799 ₽</p>
-										<button class="goods-item__to-cart">В корзину</button>
-									</div>
-								</article>
+							<li class="total__row total__row-grey">
+								<span>Скидка</span>
+								<span>0 ₽</span>
 							</li>
-							<li class="goods__item">
-								<article class="goods-item">
-									<a href="card.html">
-										<img class="goods-item__image" src="img/monic.jpg" alt="monitor">
-										<h3 class="goods-item__title">Монитор AOC 24G2U/BK</h3>
-									</a>
-									<div class="goods-item__buy">
-										<p class="goods-item__price">20799 ₽</p>
-										<button class="goods-item__to-cart">В корзину</button>
-									</div>
-								</article>
+							<li class="total__row total__row-grey total__row-gap">
+								<span>Доставка</span>
+								<span>0 ₽</span>
 							</li>
-							<li class="goods__item">
-								<article class="goods-item">
-									<a href="card.html">
-										<img class="goods-item__image" src="img/monic.jpg" alt="monitor">
-										<h3 class="goods-item__title">Монитор AOC 24G2U/BK</h3>
-									</a>
-									<div class="goods-item__buy">
-										<p class="goods-item__price">20799 ₽</p>
-										<button class="goods-item__to-cart">В корзину</button>
-									</div>
-								</article>
+							<li class="total__row">
+								<span>Дата</span>
+								<span>01 - 03 июля</span>
 							</li>
-							<li class="goods__item">
-								<article class="goods-item">
-									<a href="card.html">
-										<img class="goods-item__image" src="img/monic.jpg" alt="monitor">
-										<h3 class="goods-item__title">Монитор AOC 24G2U/BK</h3>
-									</a>
-									<div class="goods-item__buy">
-										<p class="goods-item__price">20799 ₽</p>
-										<button class="goods-item__to-cart">В корзину</button>
-									</div>
-								</article>
-							</li>
-							<li class="goods__item">
-								<article class="goods-item">
-									<a href="card.html">
-										<img class="goods-item__image" src="img/monic.jpg" alt="monitor">
-										<h3 class="goods-item__title">Монитор AOC 24G2U/BK</h3>
-									</a>
-									<div class="goods-item__buy">
-										<p class="goods-item__price">20799 ₽</p>
-										<button class="goods-item__to-cart">В корзину</button>
-									</div>
-								</article>
-							</li>
-							<li class="goods__item">
-								<article class="goods-item">
-									<a href="card.html">
-										<img class="goods-item__image" src="img/monic.jpg" alt="monitor">
-										<h3 class="goods-item__title">Монитор AOC 24G2U/BK</h3>
-									</a>
-									<div class="goods-item__buy">
-										<p class="goods-item__price">20799 ₽</p>
-										<button class="goods-item__to-cart">В корзину</button>
-									</div>
-								</article>
-							</li>
-							<li class="goods__item">
-								<article class="goods-item">
-									<a href="card.html">
-										<img class="goods-item__image" src="img/monic.jpg" alt="monitor">
-										<h3 class="goods-item__title">Монитор AOC 24G2U/BK</h3>
-									</a>
-									<div class="goods-item__buy">
-										<p class="goods-item__price">20799 ₽</p>
-										<button class="goods-item__to-cart">В корзину</button>
-									</div>
-								</article>
-							</li>
-							<li class="goods__item">
-								<article class="goods-item">
-									<a href="card.html">
-										<img class="goods-item__image" src="img/monic.jpg" alt="monitor">
-										<h3 class="goods-item__title">Монитор AOC 24G2U/BK</h3>
-									</a>
-									<div class="goods-item__buy">
-										<p class="goods-item__price">20799 ₽</p>
-										<button class="goods-item__to-cart">В корзину</button>
-									</div>
-								</article>
-							</li>
-							<li class="goods__item">
-								<article class="goods-item">
-									<a href="card.html">
-										<img class="goods-item__image" src="img/monic.jpg" alt="monitor">
-										<h3 class="goods-item__title">Монитор AOC 24G2U/BK</h3>
-									</a>
-									<div class="goods-item__buy">
-										<p class="goods-item__price">20799 ₽</p>
-										<button class="goods-item__to-cart">В корзину</button>
-									</div>
-								</article>
+							<li class="total__row">
+								<span>Оплата</span>
+								<span>Картой</span>
 							</li>
 						</ul>
+						<div class="total__order">
+							<button class="total__submit">Оформить заказ</button>
+							<label class="total__agree">
+								<input type="checkbox" name="agree" required>
+								<span>Согласен с <a class="total__agree-link" href="">условиями</a> правил пользования торговой
+									площадкой и&nbsp; правилами
+									возврата</span>
+							</label>
+						</div>
 					</div>
-					<aside class="catalog__filter filter">
-						<form class="filter__form">
-							<h3 class="filter__title">Фильтры</h3>
-							<fieldset class="filter__field">
-								<legend class="filter-field-title">Цена</legend>
-								<div class="filter__flex">
-									<label><input name="price-start" placeholder="от" type="number" class="filter__input"></label>
-									<label><input name="price-end" placeholder="до" type="number" class="filter__input"></label>
-								</div>
-							</fieldset>
-							<fieldset class="filter__field">
-								<legend class="filter-field-title">Категория</legend>
-								<label>
-									<select class="filter__select" name="category">
-										<option value="phone">Смартфоны</option>
-										<option value="tab">Планшеты</option>
-										<option value="clock">Умные часы</option>
-										<option value="monoblock">Моноблоки</option>
-										<option value="laptop">Ноутбуки</option>
-									</select>
-								</label>
-							</fieldset>
-							<fieldset class="filter__field">
-								<legend class="filter-field-title">Диагональ</legend>
-								<div class="filter__flex">
-									<label><input name="diagonal-start" placeholder="от" type="number" class="filter__input"></label>
-									<label><input name="diagonal-end" placeholder="до" type="number" class="filter__input"></label>
-								</div>
-							</fieldset>
-							<fieldset class="filter__field">
-								<legend class="filter-field-title">Цвет</legend>
-								<div class="filter__flex">
-									<label for="">
-										<input class="filter__checkbox" name="color" value="white" type="checkbox">Белый
-									</label>
-									<label for="">
-										<input class="filter__checkbox" name="color" value="black" type="checkbox">Черный
-									</label>
-									<label for="">
-										<input class="filter__checkbox" name="color" value="silver" type="checkbox">Серебристый
-									</label>
-									<label for="">
-										<input class="filter__checkbox" name="color" value="tomato" type="checkbox">Красный
-									</label>
-									<label for="">
-										<input class="filter__checkbox" name="color" value="green" type="checkbox">Зеленый
-									</label>
-									<label for="">
-										<input class="filter__checkbox" name="color" value="gold" type="checkbox">Золотой
-									</label>
-								</div>
-							</fieldset>
-							<button class="filter__apply" type="submit">Применить фильтр</button>
-							<button class="filter__reset" type="reset">Очистить все</button>
-						</form>
-					</aside>
-					<div class="catalog__pagination pagination">
-						<a href="#" class="pagination__arrow pagination__arrow_start" aria-label="Перейти на первую страницу"></a>
-						<ul class="pagination__list">
-							<li class="pagination__item">
-								<a href="pagination__link pagination__link_active">1</a>
-							</li>
-							<li class="pagination__item">
-								<a href="pagination__link">2</a>
-							</li>
-							<li class="pagination__item">
-								<a href="pagination__link">3</a>
-							</li>
-							<li class="pagination__item">
-								<a href="pagination__link">4</a>
-							</li>
-							<li class="pagination__item">
-								<a href="pagination__link">5</a>
-							</li>
-							<li class="pagination__item">
-								<a href="pagination__link">6</a>
-							</li>
-						</ul>
-						<a href="#" class="pagination__arrow pagination__arrow_end" aria-label="Перейти на последнюю страницу"></a>
-					</div>
-				</div>
+				</section>
+				<section class=" cart__address address">
+					<h3 class="cart__title address__title">Адрес доставки</h3>
+					<form class="arddress__form">
+						<label><select class="address__item address__item-select" name="city">
+								<option value="" disabled selected>Город</option>
+								<option value="Moscow">Москва</option>
+								<option value="Ivanovo">Иваново</option>
+								<option value="Shuya">Шуя</option>
+								<option value="Kazan">Казань</option>
+							</select></label>
+						<label><input class="address__item" type="text" placeholder="Улица, дом"></label>
+						<label><input class="address__item" type="text" placeholder="Квартира"></label>
+						<label><input class="address__item" type="text" placeholder="ФИО"></label>
+						<label><input class="address__item" type="text" placeholder="Индекс"></label>
+						<label><button class="address__item address__item-btn">Сохранить</button></label>
+						<label class="address__label-save">
+							<input type="checkbox" name="save-address">Запомнить этот адрес
+						</label>
+					</form>
+				</section>
 			</div>
 		</section>
 	</main>
+
 	<footer class="footer">
 		<h2 class="visually-hidden">Навигация</h2>
 		<div class="container">
